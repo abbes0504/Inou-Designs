@@ -1,0 +1,248 @@
+.carrusel{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: scroll;
+    background-color: #2F2E2E;
+    height: 350px;
+   
+    align-items: center;
+
+    
+}
+
+.elementos1{
+    flex: 1 0 auto;
+    margin: 0 50px;
+    background-image: url(https://raw.githubusercontent.com/abbes0504/img/main/imagen1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 200px;
+    border: 20px solid #EFEFEF;
+    border-radius: 5px;
+
+}
+
+.elementos2{
+    flex: 1 0 auto;
+    margin: 0 50px;
+    background-image: url(https://raw.githubusercontent.com/abbes0504/img/main/imagen2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 200px;
+    border: 20px solid #EFEFEF;
+    border-radius: 5px;
+
+}
+
+.elementos3{
+    flex: 1 0 auto;
+    margin: 0 50px;
+    background-image: url(https://raw.githubusercontent.com/abbes0504/img/main/imagen3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 200px;
+    border: 20px solid #EFEFEF;
+    border-radius: 5px;
+
+}
+
+.elementos4{
+    flex: 1 0 auto;
+    margin: 0 50px;
+    background-image: url(https://raw.githubusercontent.com/abbes0504/img/main/imagen4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 200px;
+    border: 20px solid #EFEFEF;
+    border-radius: 5px;
+
+}
+
+.elementos5{
+    flex: 1 0 auto;
+    margin: 0 50px;
+    background-image: url(https://raw.githubusercontent.com/abbes0504/img/main/121106955_3723878700964849_506505139087852469_o.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 200px;
+    border: 20px solid #EFEFEF;
+    border-radius: 5px;
+
+}
+
+.elementos6{
+    flex: 1 0 auto;
+    margin: 0 50px;
+    background-image: url(https://raw.githubusercontent.com/abbes0504/img/main/4.-maderayconstruccion-stepienybarno-grupo-finsa-madera-Fermi%CC%81n-G.-Blanco.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 200px;
+    border: 20px solid #EFEFEF;
+    border-radius: 5px;
+
+}
+
+
+.elementos7{
+    flex: 1 0 auto;
+    margin: 0 50px;
+    background-image: url(https://raw.githubusercontent.com/abbes0504/img/main/Proyecto-Madera-Pino-Soria-Noblejas-10.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 200px;
+    border: 20px solid #EFEFEF;
+    border-radius: 5px;
+
+}
+
+
+.elementos8{
+    flex: 1 0 auto;
+    margin: 0 50px;
+    background-image: url(https://raw.githubusercontent.com/abbes0504/img/main/Proyecto-Mobiliario-madera-maquinaria-acero-vitrinas-expositivas-frio-remoto-krion-hosteleria-madrid-1-interiorismo-decoracion.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 200px;
+    border: 20px solid #EFEFEF;
+    border-radius: 5px;
+
+}
+
+
+.elementos9{
+    flex: 1 0 auto;
+    margin: 0 50px;
+    background-image: url(https://raw.githubusercontent.com/abbes0504/img/main/Render-3D-interior-casa-familiar-scaled.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 200px;
+    border: 20px solid #EFEFEF;
+    border-radius: 5px;
+
+}
+
+@media (max-width:700px){
+
+    
+    .carrusel{
+        height: 300px;
+    
+    }
+
+    .elementos1{
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+        flex: 1 0 auto;
+        margin: 0 50px;
+        width: 300px;
+        height: 180px;  
+    }
+
+    .elementos2{
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+        flex: 1 0 auto;
+        margin: 0 50px;
+        width: 300px;
+        height: 180px;  
+    }
+
+    .elementos3{
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+        flex: 1 0 auto;
+        margin: 0 50px;
+        width: 300px;
+        height: 180px;  
+    }
+
+    .elementos4{
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+        flex: 1 0 auto;
+        margin: 0 50px;
+        width: 300px;
+        height: 180px;  
+    }
+
+    .elementos5{
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+        flex: 1 0 auto;
+        margin: 0 50px;
+        width: 300px;
+        height: 180px;  
+    }
+
+    .elementos6{
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+        flex: 1 0 auto;
+        margin: 0 50px;
+        width: 300px;
+        height: 180px;  
+    }
+
+    .elementos7{
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+        flex: 1 0 auto;
+        margin: 0 50px;
+        width: 300px;
+        height: 180px;  
+    }
+
+    .elementos8{
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+        flex: 1 0 auto;
+        margin: 0 50px;
+        width: 300px;
+        height: 180px;  
+    }
+
+    .elementos9{
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+        flex: 1 0 auto;
+        margin: 0 50px;
+        width: 300px;
+        height: 180px;  
+    }
+}
