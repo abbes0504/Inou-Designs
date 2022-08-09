@@ -29,6 +29,15 @@
     display: flex;
 }
 
+.prom2{
+    height: 6rem;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #2F2E2E;
+    display: flex;
+}
+
 .logo2 img{
     height: 100px;
     margin-top: 3rem;
